@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>libGod官网</title>
+  <subtitle>一个全异步+协程机制实现的网络库..</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://libgod.com/"/>
+  <updated>2016-03-12T16:46:01.699Z</updated>
+  <id>http://libgod.com/</id>
+  
+  <author>
+    <name>libGod</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>libGod-2.0.3-testing发布</title>
+    <link href="http://libgod.com/archives/libgod-v2-0-3-testing.html"/>
+    <id>http://libgod.com/archives/libgod-v2-0-3-testing.html</id>
+    <published>2015-04-07T06:24:36.000Z</published>
+    <updated>2016-03-12T16:46:01.699Z</updated>
+    
+    <content type="html">&lt;p&gt;libGod-2.0.3-testing发布，内容更新如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;调整了内部定时器，单独做成一个模块，方便重用。&lt;/li&gt;
+&lt;li&gt;增加高效的Fiber定时休眠功能，为以后将加入的定时锁提供基础。&lt;/li&gt;
+&lt;li&gt;进一步优化了io_scheduler的性能。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/libgod&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;libGod-2.0.3-testing发布，内容更新如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;调整了内部定时器，单独做成一个模块，方便重用。&lt;/li&gt;
+&lt;li&gt;增加高效的Fiber定时休眠功能，为以后将加入的定时锁提供基础。&lt;/li&gt;
+&lt;li&gt;进一步优化了io_scheduler的性能。&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="个人项目" scheme="http://libgod.com/category/individual-project/"/>
+    
+    
+      <category term="公告" scheme="http://libgod.com/tag/announcement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>libGod-2.0.2-testing发布</title>
+    <link href="http://libgod.com/archives/libgod-v2-0-2-testing.html"/>
+    <id>http://libgod.com/archives/libgod-v2-0-2-testing.html</id>
+    <published>2014-12-29T12:05:17.000Z</published>
+    <updated>2016-03-12T16:46:01.699Z</updated>
+    
+    <content type="html">&lt;p&gt;经过几天的忙乎，2.0.2-testing版闪亮登场。&lt;/p&gt;
+&lt;p&gt;内容更新：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修复io_scheduler的概率性宕机问题。&lt;/li&gt;
+&lt;li&gt;统一定时器时间类型。&lt;/li&gt;
+&lt;li&gt;增加&lt;em&gt;.zip、&lt;/em&gt;.sh两种打包方式。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;/libgod&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过几天的忙乎，2.0.2-testing版闪亮登场。&lt;/p&gt;
+&lt;p&gt;内容更新：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;修复io_scheduler的概率性宕机问题。&lt;/li&gt;
+&lt;li&gt;统一定时器时间类型。&lt;/li&gt;
+&lt;li&gt;增加&lt;em&gt;.zip、&lt;/em&gt;.sh两种打包方式。&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="个人项目" scheme="http://libgod.com/category/individual-project/"/>
+    
+    
+      <category term="公告" scheme="http://libgod.com/tag/announcement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>libGod 2.0.1_alpha圣诞版发布</title>
+    <link href="http://libgod.com/archives/libgod-v2-0-1-alpha.html"/>
+    <id>http://libgod.com/archives/libgod-v2-0-1-alpha.html</id>
+    <published>2014-12-25T08:48:40.000Z</published>
+    <updated>2016-03-12T16:46:01.699Z</updated>
+    
+    <content type="html">&lt;p&gt;经过大半年的大规模重构，全新的2.0版终于出来了，趁着圣诞节，沾沾喜气，嘿嘿！&lt;/p&gt;
+&lt;p&gt;相对于v1.0，进行了大量的结构调整和性能优化，整个库的调度核心的性能提高了60%左右。为了应对不同需求，分出了单线程和多线程版。单线程版本进行了特殊性能优化，而且逻辑代码更简单。多线程版能充分利用多核。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;本次发布的是单线程的非稳定版本，仅可用于测试。多线程版本还在重构中，敬请期待！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/libgod&quot;&gt;下载地址&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过大半年的大规模重构，全新的2.0版终于出来了，趁着圣诞节，沾沾喜气，嘿嘿！&lt;/p&gt;
+&lt;p&gt;相对于v1.0，进行了大量的结构调整和性能优化，整个库的调度核心的性能提高了60%左右。为了应对不同需求，分出了单线程和多线程版。单线程版本进行了特殊性能优化，而且逻辑代码更简单。多线程版能充分利用多核。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="个人项目" scheme="http://libgod.com/category/individual-project/"/>
+    
+    
+      <category term="公告" scheme="http://libgod.com/tag/announcement/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>libGod v2.0（单线程版）即将发布</title>
+    <link href="http://libgod.com/archives/before-libgod-v2-0.html"/>
+    <id>http://libgod.com/archives/before-libgod-v2-0.html</id>
+    <published>2014-12-21T08:36:58.000Z</published>
+    <updated>2016-03-12T16:46:01.699Z</updated>
+    
+    <content type="html">&lt;p&gt;去年下旬，一套历时4年精心雕琢的服务端开发库libGod v1.0横空出世，但只是昙花一现，随即便没有了后续消息，甚至有网友发邮件询问这个库是不是停止开发了。其实没有停止开发，而且进行了大规模的重构，虽然中途因其他事耽搁，重构周期拖得比较长，但现在重构也接近尾声了，一个全新的2.0版即将发布。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;2.0版本对比1.0，整个库的调度核心的性能提高了60%以上，而且接口更简单，更容易使用了。&lt;/p&gt;
+&lt;p&gt;2.0开始，libGod分单线程和多线程两个版本。之所以分出个单线程版，是因为我发现很多时候，非计算密集型服务端程序的CPU需求并不是太高，单核计算能够支撑。&lt;/p&gt;
+&lt;p&gt;我们专门针对单线程进行了特殊优化，调度性能比多线程版本高。另外单线程版还有一个很大的优势就是逻辑更简单了。现在很多系统的线程是抢占式的调度，访问共享资源就免不了加锁。协程是协作式调度，大部分情况下是不需要加锁的。而了解我们项目的应该都知道，libGod整个框架是基于协程驱动的。libGod多线程版虽然也是基于协程，但因为夹杂着多线程的抢占式调度，所以处处还是需要加锁。而单线程版就是单纯的协作式调度，所以绝大部分情况可以不用加锁。从此远离死锁烦恼，生活突然如此美好，哈哈。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;去年下旬，一套历时4年精心雕琢的服务端开发库libGod v1.0横空出世，但只是昙花一现，随即便没有了后续消息，甚至有网友发邮件询问这个库是不是停止开发了。其实没有停止开发，而且进行了大规模的重构，虽然中途因其他事耽搁，重构周期拖得比较长，但现在重构也接近尾声了，一个全新的2.0版即将发布。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="个人项目" scheme="http://libgod.com/category/individual-project/"/>
+    
+    
+      <category term="公告" scheme="http://libgod.com/tag/announcement/"/>
+    
+  </entry>
+  
+</feed>
